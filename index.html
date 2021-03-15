@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Stopwatch App</title>
+
+    <!-- Bootstrap -->
+    <!--
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo" type="
+text/css">
+-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=vollkorn" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">-->
+
+    <link rel="stylesheet" href="styling.css">
+</head>
+
+<body>
+    <!-- title-->
+    <div class="container-fluid">
+        <div id="header">Stopwatch</div>
+
+        <!--     lap time-->
+        <div id="lap">
+            <span id="lapMinutes">00</span>
+            <span id="lapSeconds">00</span>
+            <span id="lapCentiseconds">00</span>
+        </div>
+        <!--    time-->
+        <div id="time">
+            <span id="timeMinutes">00</span>
+            <span id="timeSeconds">00</span>
+            <span id="timeCentiseconds">00</span>
+        </div>
+        <!--    controls-->
+        <div class="row" id="controlsContainer">
+            <div class="col-xs-2 col-xs-offset-4 ">
+                <div class="control" id="startButton">
+                    Start
+                </div>
+                <div class="control" id="stopButton">
+                    Stop
+                </div>
+                <div class="control" id="resumeButton">
+                    Resume
+                </div>
+            </div>
+            <div class="col-xs-2">
+                <div class="control" id="lapButton">
+                    Lap
+                </div>
+                <div class="control" id="resetButton">
+                    Reset
+                </div>
+            </div>
+        </div>
+<!--laps-->
+       <div id="laps">
+           
+           
+       </div>
+
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+<script src="stopwatch.js"></script>
+
+</body></html>
+<!--  create footer-->
+<!--
+        <div class="footer">
+            <div class="container">
+                <p>&copy;Develop with Pericles.</p>
+            </div>
+        </div>
+-->
